@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Color Example Material
-  m_Shader: {fileID: -6465566751694194690, guid: b2c2ca935fe2549829d9e2730ef1980e,
+  m_Name: Cartoon Water Material
+  m_Shader: {fileID: -6465566751694194690, guid: 18ec1f60b5580244ba833e8a532c4302,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -40,10 +40,16 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Ripple_Density: 18
+    - _Ripple_Slimness: 5
+    - _Ripple_Speed: 1
+    - _Wave_Speed: 0.05
+    - _Waves_Height: 0.3
     m_Colors:
-    - _Base_Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    - _Base_Color: {r: 0.3270737, g: 0.5894478, b: 0.9245283, a: 0}
+    - _Ripple_Color: {r: 0.1969972, g: 0.5035225, b: 1.440117, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6680976642744442922
+--- !u!114 &4836285372829590965
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
