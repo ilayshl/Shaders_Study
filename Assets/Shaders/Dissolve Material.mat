@@ -43,7 +43,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Cutoff_Height: -0.08
-    - _Glow_Thickness: 0.01
+    - _Glow_Thickness: 0.05
     - _Noise_Scale: 241.41
     - _Noise_Strength: 0.21
     - _QueueControl: 0
